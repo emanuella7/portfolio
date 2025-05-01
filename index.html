@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfil de Emanuella</title>
+  <style>
+    :root {
+      --bg-light: #f9f9f9;
+      --bg-dark: #1e1e1e;
+      --text-light: #000;
+      --text-dark: #fff;
+      --accent: #6c63ff;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      transition: 0.3s ease;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: var(--bg-dark);
+        color: var(--text-dark);
+      }
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 2rem;
+      border-radius: 16px;
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid #ccc;
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--accent);
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    .badges a {
+      text-decoration: none;
+    }
+
+    .badge {
+      padding: 0.6rem 1rem;
+      border-radius: 8px;
+      background-color: var(--accent);
+      color: white;
+      font-weight: bold;
+      transition: background-color 0.2s ease;
+    }
+
+    .badge:hover {
+      background-color: #5146e1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Emanuella</h1>
+    <p>
+      Estudante de Informática no IFCE – Campus Maranguape, com 17 anos e apaixonada por tecnologia. Tenho experiência em Java, HTML, e atualmente estudo JavaScript e Python. Estou sempre buscando evoluir na área de desenvolvimento!
+    </p>
+
+    <p><strong>Curiosidades:</strong> Amo ler livros 📚, praticar esportes 🏃‍♀️ e ouvir música 🎧.</p>
+
+    <h2>📱 Redes e Contato</h2>
+    <div class="badges">
+      <a href="mailto:sousa.emanuella@aluni.ifce.edu.br"><div class="badge">Email Escolar</div></a>
+      <a href="mailto:fatimaemanuella7@gmail.com"><div class="badge">Email Pessoal</div></a>
+      <a href="https://instagram.com/seu_usuario"><div class="badge">Instagram</div></a>
+      <a href="https://linkedin.com/in/seu_usuario"><div class="badge">LinkedIn</div></a>
+      <a href="https://dev.to/seu_usuario"><div class="badge">Dev.to</div></a>
+    </div>
+  </div>
+</body>
+</html>
 
